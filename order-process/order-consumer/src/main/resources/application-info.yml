@@ -1,0 +1,5 @@
+info:
+  app:
+    name: order-processor application
+    description: Naver lecture sample order-processor application
+    version: 1.0.0

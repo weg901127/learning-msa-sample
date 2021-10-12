@@ -1,0 +1,17 @@
+bootJar {
+    enabled = false
+}
+jar {
+    enabled = true
+}
+
+
+dependencies {
+
+    api project(':adaptor:domain')
+
+    api 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+    api 'com.fasterxml.jackson.core:jackson-core'
+    api 'com.fasterxml.jackson.core:jackson-databind'
+}

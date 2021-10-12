@@ -1,0 +1,25 @@
+tasks.jar {
+    enabled = false
+}
+
+tasks.bootJar {
+    enabled = true
+    mainClassName = "com.naver.lecture.product.ProductApplication"
+}
+
+dependencies {
+    api project(':adaptor:domain')
+
+    api 'org.springframework.boot:spring-boot-starter-web'
+    api 'org.springframework.boot:spring-boot-starter-actuator'
+    api 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+    api 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+
+    api 'com.fasterxml.jackson.core:jackson-core'
+    api 'com.fasterxml.jackson.core:jackson-databind'
+
+    api 'org.apache.commons:commons-lang3'
+
+    runtimeOnly 'mysql:mysql-connector-java'
+}

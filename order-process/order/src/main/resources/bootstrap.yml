@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: order
+  profiles:
+    include: feign, info, stream-kafka, mysql

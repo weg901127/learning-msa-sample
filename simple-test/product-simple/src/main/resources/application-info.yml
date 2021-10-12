@@ -1,0 +1,5 @@
+info:
+  app:
+    name: product simple application
+    description: Naver lecture sample product application
+    version: 1.0.0

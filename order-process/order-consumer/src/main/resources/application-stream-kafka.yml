@@ -1,0 +1,17 @@
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+  cloud:
+    stream:
+      default:
+        contentType: application/json
+      bindings:
+        subscribeChannel:
+          binder: kafka
+          destination: naver-lecture-test-exchange
+          group: naver-lecture-test-exchange-group
+          durableSubscription: true
+        deadLetterChannel:
+          binder: kafka
+          destination: naver-lecture-deadletter-test-exchange

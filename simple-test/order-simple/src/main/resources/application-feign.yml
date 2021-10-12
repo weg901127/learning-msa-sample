@@ -1,0 +1,7 @@
+feign:
+  client:
+    config:
+      product-simple:
+        connectTimeout: 1000
+        readTimeout: 3000
+        loggerLevel: basic

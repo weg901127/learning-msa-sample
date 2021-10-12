@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: order-simple
+  profiles:
+    include: info, feign

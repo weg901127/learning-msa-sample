@@ -1,0 +1,12 @@
+tasks.jar {
+    enabled = false
+}
+
+tasks.bootJar {
+    enabled = true
+    mainClassName = "com.naver.lecture.eureka.EurekaApplication"
+}
+
+dependencies {
+    api "org.springframework.cloud:spring-cloud-starter-netflix-eureka-server"
+}

@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: order-processor
+  profiles:
+    include: info, mysql, feign, stream-kafka

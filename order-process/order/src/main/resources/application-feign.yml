@@ -1,0 +1,11 @@
+feign:
+  client:
+    config:
+      product:
+        connectTimeout: 1000
+        readTimeout: 3000
+        loggerLevel: basic
+      payment:
+        connectTimeout: 3000
+        readTimeout: 12000
+        loggerLevel: basic
