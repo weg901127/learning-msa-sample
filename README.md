@@ -1,6 +1,6 @@
 # learning-msa-sample
 
-Naver spring cloud 사내 교육용 sample test app 입니다. 
+spring cloud 테스트용 sample test app 입니다. 
 
 #### Service Discovery 
 모듈간 Client side loadBalancing 을 하기 위함

@@ -50,7 +50,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: test1234
       MYSQL_DATABASE: commerce_platform
-      MYSQL_USER: naver_lecture
+      MYSQL_USER: test_lecture
       MYSQL_PASSWORD: test1234
     ports:
       - "3306:3306"
@@ -64,5 +64,5 @@ services:
       - "8080:15672"
       - "5672:5672"
     environment:
-      - RABBITMQ_DEFAULT_USER=naver_lecture
+      - RABBITMQ_DEFAULT_USER=test_lecture
       - RABBITMQ_DEFAULT_PASS=test1234
