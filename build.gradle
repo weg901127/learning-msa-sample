@@ -24,7 +24,7 @@ buildscript {
 }
 
 subprojects {
-	group "com.naver.lecture.${it.path.replaceFirst(':', '').replaceAll(':', '.')}"
+	group "me.phoboslabs.lecture.${it.path.replaceFirst(':', '').replaceAll(':', '.')}"
 	version = '0.0.1'
 
 	allprojects {

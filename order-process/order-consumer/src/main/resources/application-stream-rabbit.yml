@@ -1,7 +1,7 @@
 spring:
   rabbitmq:
     addresses: localhost:5672
-    username: naver_lecture
+    username: test_lecture
     password: test1234
     virtual-host: test-virtual-host
   cloud:
@@ -11,11 +11,11 @@ spring:
       bindings:
         subscribeChannel:
           binder: rabbit
-          destination: naver-lecture-test-exchange
-          group: naver-lecture-test-queue
+          destination: test-lecture-test-exchange
+          group: test-lecture-test-queue
           durableSubscription: true
         deadLetterChannel:
           binder: rabbit
-          destination: naver-lecture-dead-letter-test-exchange
+          destination: test-lecture-dead-letter-test-exchange
           producer:
-            required-groups: naver-lecture-dead-letter-test-queue
+            required-groups: test-lecture-dead-letter-test-queue

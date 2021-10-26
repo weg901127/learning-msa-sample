@@ -4,7 +4,7 @@ tasks.jar {
 
 tasks.bootJar {
     enabled = true
-    mainClassName = "com.naver.lecture.eureka.EurekaApplication"
+    mainClassName = "me.phoboslabs.lecture.eureka.EurekaApplication"
 }
 
 dependencies {

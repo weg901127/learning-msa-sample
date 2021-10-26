@@ -9,4 +9,4 @@ spring:
       bindings:
         publishChannel:
           binder: kafka
-          destination: naver-lecture-test-exchange
+          destination: test-lecture-test-exchange

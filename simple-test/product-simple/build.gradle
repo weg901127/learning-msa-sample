@@ -4,7 +4,7 @@ tasks.jar {
 
 tasks.bootJar {
     enabled = true
-    mainClassName = "com.naver.lecture.simple.product.ProductApplication"
+    mainClassName = "me.phoboslabs.lecture.simple.product.ProductApplication"
 }
 
 dependencies {

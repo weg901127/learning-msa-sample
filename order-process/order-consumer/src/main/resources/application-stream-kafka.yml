@@ -9,9 +9,9 @@ spring:
       bindings:
         subscribeChannel:
           binder: kafka
-          destination: naver-lecture-test-exchange
-          group: naver-lecture-test-exchange-group
+          destination: test-lecture-test-exchange
+          group: test-lecture-test-exchange-group
           durableSubscription: true
         deadLetterChannel:
           binder: kafka
-          destination: naver-lecture-deadletter-test-exchange
+          destination: test-lecture-deadletter-test-exchange
